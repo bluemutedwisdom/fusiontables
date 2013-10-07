@@ -1,0 +1,1398 @@
+"
+område
+","
+txt_område
+","
+flyttyp
+","
+antal
+","
+text_flyttyp
+"
+
+"
+SDO01
+","
+Rinkeby-Kista
+","
+1
+","
+3075
+","
+inomflyttning
+"
+"
+SDO01
+","
+Rinkeby-Kista
+","
+2
+","
+1919
+","
+in fr övr Sthlm
+"
+"
+SDO01
+","
+Rinkeby-Kista
+","
+3
+","
+1441
+","
+in fr övr länet
+"
+"
+SDO01
+","
+Rinkeby-Kista
+","
+4
+","
+ 917
+","
+in fr övr Sverige
+"
+"
+SDO01
+","
+Rinkeby-Kista
+","
+5
+","
+1959
+","
+in fr utlandet
+"
+"
+SDO01
+","
+Rinkeby-Kista
+","
+6
+","
+2530
+","
+ut till övr Sthlm
+"
+"
+SDO01
+","
+Rinkeby-Kista
+","
+7
+","
+2110
+","
+ut till övr länet
+"
+"
+SDO01
+","
+Rinkeby-Kista
+","
+8
+","
+ 724
+","
+ut till övr Sverige
+"
+"
+SDO01
+","
+Rinkeby-Kista
+","
+9
+","
+ 599
+","
+ut till utlandet
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+1
+","
+1689
+","
+inomflyttning
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+2
+","
+1913
+","
+in fr övr Sthlm
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+3
+","
+1057
+","
+in fr övr länet
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+4
+","
+ 577
+","
+in fr övr Sverige
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+5
+","
+ 938
+","
+in fr utlandet
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+6
+","
+2111
+","
+ut till övr Sthlm
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+7
+","
+1179
+","
+ut till övr länet
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+8
+","
+ 509
+","
+ut till övr Sverige
+"
+"
+SDO03
+","
+Spånga-Tensta
+","
+9
+","
+ 584
+","
+ut till utlandet
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+1
+","
+3385
+","
+inomflyttning
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+2
+","
+3175
+","
+in fr övr Sthlm
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+3
+","
+1793
+","
+in fr övr länet
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+4
+","
+1120
+","
+in fr övr Sverige
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+5
+","
+1052
+","
+in fr utlandet
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+6
+","
+2940
+","
+ut till övr Sthlm
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+7
+","
+1953
+","
+ut till övr länet
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+8
+","
+ 888
+","
+ut till övr Sverige
+"
+"
+SDO04
+","
+Hässelby-Vällingby
+","
+9
+","
+ 362
+","
+ut till utlandet
+"
+"
+SDO06
+","
+Bromma
+","
+1
+","
+2927
+","
+inomflyttning
+"
+"
+SDO06
+","
+Bromma
+","
+2
+","
+3607
+","
+in fr övr Sthlm
+"
+"
+SDO06
+","
+Bromma
+","
+3
+","
+1952
+","
+in fr övr länet
+"
+"
+SDO06
+","
+Bromma
+","
+4
+","
+1319
+","
+in fr övr Sverige
+"
+"
+SDO06
+","
+Bromma
+","
+5
+","
+ 837
+","
+in fr utlandet
+"
+"
+SDO06
+","
+Bromma
+","
+6
+","
+3527
+","
+ut till övr Sthlm
+"
+"
+SDO06
+","
+Bromma
+","
+7
+","
+1946
+","
+ut till övr länet
+"
+"
+SDO06
+","
+Bromma
+","
+8
+","
+1046
+","
+ut till övr Sverige
+"
+"
+SDO06
+","
+Bromma
+","
+9
+","
+ 472
+","
+ut till utlandet
+"
+"
+SDO08
+","
+Kungsholmen
+","
+1
+","
+3038
+","
+inomflyttning
+"
+"
+SDO08
+","
+Kungsholmen
+","
+2
+","
+5023
+","
+in fr övr Sthlm
+"
+"
+SDO08
+","
+Kungsholmen
+","
+3
+","
+2259
+","
+in fr övr länet
+"
+"
+SDO08
+","
+Kungsholmen
+","
+4
+","
+2056
+","
+in fr övr Sverige
+"
+"
+SDO08
+","
+Kungsholmen
+","
+5
+","
+ 813
+","
+in fr utlandet
+"
+"
+SDO08
+","
+Kungsholmen
+","
+6
+","
+4617
+","
+ut till övr Sthlm
+"
+"
+SDO08
+","
+Kungsholmen
+","
+7
+","
+2282
+","
+ut till övr länet
+"
+"
+SDO08
+","
+Kungsholmen
+","
+8
+","
+1160
+","
+ut till övr Sverige
+"
+"
+SDO08
+","
+Kungsholmen
+","
+9
+","
+ 594
+","
+ut till utlandet
+"
+"
+SDO09
+","
+Norrmalm
+","
+1
+","
+3173
+","
+inomflyttning
+"
+"
+SDO09
+","
+Norrmalm
+","
+2
+","
+4539
+","
+in fr övr Sthlm
+"
+"
+SDO09
+","
+Norrmalm
+","
+3
+","
+2281
+","
+in fr övr länet
+"
+"
+SDO09
+","
+Norrmalm
+","
+4
+","
+1925
+","
+in fr övr Sverige
+"
+"
+SDO09
+","
+Norrmalm
+","
+5
+","
+1169
+","
+in fr utlandet
+"
+"
+SDO09
+","
+Norrmalm
+","
+6
+","
+4864
+","
+ut till övr Sthlm
+"
+"
+SDO09
+","
+Norrmalm
+","
+7
+","
+2772
+","
+ut till övr länet
+"
+"
+SDO09
+","
+Norrmalm
+","
+8
+","
+1188
+","
+ut till övr Sverige
+"
+"
+SDO09
+","
+Norrmalm
+","
+9
+","
+ 964
+","
+ut till utlandet
+"
+"
+SDO10
+","
+Östermalm
+","
+1
+","
+3840
+","
+inomflyttning
+"
+"
+SDO10
+","
+Östermalm
+","
+2
+","
+3427
+","
+in fr övr Sthlm
+"
+"
+SDO10
+","
+Östermalm
+","
+3
+","
+2547
+","
+in fr övr länet
+"
+"
+SDO10
+","
+Östermalm
+","
+4
+","
+2117
+","
+in fr övr Sverige
+"
+"
+SDO10
+","
+Östermalm
+","
+5
+","
+1396
+","
+in fr utlandet
+"
+"
+SDO10
+","
+Östermalm
+","
+6
+","
+3943
+","
+ut till övr Sthlm
+"
+"
+SDO10
+","
+Östermalm
+","
+7
+","
+2533
+","
+ut till övr länet
+"
+"
+SDO10
+","
+Östermalm
+","
+8
+","
+1303
+","
+ut till övr Sverige
+"
+"
+SDO10
+","
+Östermalm
+","
+9
+","
+ 965
+","
+ut till utlandet
+"
+"
+SDO12
+","
+Södermalm
+","
+1
+","
+7685
+","
+inomflyttning
+"
+"
+SDO12
+","
+Södermalm
+","
+2
+","
+7092
+","
+in fr övr Sthlm
+"
+"
+SDO12
+","
+Södermalm
+","
+3
+","
+3819
+","
+in fr övr länet
+"
+"
+SDO12
+","
+Södermalm
+","
+4
+","
+3045
+","
+in fr övr Sverige
+"
+"
+SDO12
+","
+Södermalm
+","
+5
+","
+1535
+","
+in fr utlandet
+"
+"
+SDO12
+","
+Södermalm
+","
+6
+","
+7556
+","
+ut till övr Sthlm
+"
+"
+SDO12
+","
+Södermalm
+","
+7
+","
+3787
+","
+ut till övr länet
+"
+"
+SDO12
+","
+Södermalm
+","
+8
+","
+2086
+","
+ut till övr Sverige
+"
+"
+SDO12
+","
+Södermalm
+","
+9
+","
+1152
+","
+ut till utlandet
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+1
+","
+4369
+","
+inomflyttning
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+2
+","
+5262
+","
+in fr övr Sthlm
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+3
+","
+3101
+","
+in fr övr länet
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+4
+","
+2059
+","
+in fr övr Sverige
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+5
+","
+1494
+","
+in fr utlandet
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+6
+","
+5430
+","
+ut till övr Sthlm
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+7
+","
+3404
+","
+ut till övr länet
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+8
+","
+1491
+","
+ut till övr Sverige
+"
+"
+SDO14
+","
+Enskede-Årsta-Vantör
+","
+9
+","
+ 731
+","
+ut till utlandet
+"
+"
+SDO15
+","
+Skarpnäck
+","
+1
+","
+1784
+","
+inomflyttning
+"
+"
+SDO15
+","
+Skarpnäck
+","
+2
+","
+2842
+","
+in fr övr Sthlm
+"
+"
+SDO15
+","
+Skarpnäck
+","
+3
+","
+1175
+","
+in fr övr länet
+"
+"
+SDO15
+","
+Skarpnäck
+","
+4
+","
+1068
+","
+in fr övr Sverige
+"
+"
+SDO15
+","
+Skarpnäck
+","
+5
+","
+ 697
+","
+in fr utlandet
+"
+"
+SDO15
+","
+Skarpnäck
+","
+6
+","
+2797
+","
+ut till övr Sthlm
+"
+"
+SDO15
+","
+Skarpnäck
+","
+7
+","
+1456
+","
+ut till övr länet
+"
+"
+SDO15
+","
+Skarpnäck
+","
+8
+","
+ 770
+","
+ut till övr Sverige
+"
+"
+SDO15
+","
+Skarpnäck
+","
+9
+","
+ 326
+","
+ut till utlandet
+"
+"
+SDO18
+","
+Farsta
+","
+1
+","
+2046
+","
+inomflyttning
+"
+"
+SDO18
+","
+Farsta
+","
+2
+","
+2900
+","
+in fr övr Sthlm
+"
+"
+SDO18
+","
+Farsta
+","
+3
+","
+1773
+","
+in fr övr länet
+"
+"
+SDO18
+","
+Farsta
+","
+4
+","
+ 863
+","
+in fr övr Sverige
+"
+"
+SDO18
+","
+Farsta
+","
+5
+","
+ 620
+","
+in fr utlandet
+"
+"
+SDO18
+","
+Farsta
+","
+6
+","
+2455
+","
+ut till övr Sthlm
+"
+"
+SDO18
+","
+Farsta
+","
+7
+","
+1507
+","
+ut till övr länet
+"
+"
+SDO18
+","
+Farsta
+","
+8
+","
+ 661
+","
+ut till övr Sverige
+"
+"
+SDO18
+","
+Farsta
+","
+9
+","
+ 292
+","
+ut till utlandet
+"
+"
+SDO21
+","
+Älvsjö
+","
+1
+","
+ 609
+","
+inomflyttning
+"
+"
+SDO21
+","
+Älvsjö
+","
+2
+","
+1526
+","
+in fr övr Sthlm
+"
+"
+SDO21
+","
+Älvsjö
+","
+3
+","
+ 722
+","
+in fr övr länet
+"
+"
+SDO21
+","
+Älvsjö
+","
+4
+","
+ 320
+","
+in fr övr Sverige
+"
+"
+SDO21
+","
+Älvsjö
+","
+5
+","
+ 212
+","
+in fr utlandet
+"
+"
+SDO21
+","
+Älvsjö
+","
+6
+","
+1145
+","
+ut till övr Sthlm
+"
+"
+SDO21
+","
+Älvsjö
+","
+7
+","
+ 680
+","
+ut till övr länet
+"
+"
+SDO21
+","
+Älvsjö
+","
+8
+","
+ 309
+","
+ut till övr Sverige
+"
+"
+SDO21
+","
+Älvsjö
+","
+9
+","
+ 156
+","
+ut till utlandet
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+1
+","
+3914
+","
+inomflyttning
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+2
+","
+5151
+","
+in fr övr Sthlm
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+3
+","
+2460
+","
+in fr övr länet
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+4
+","
+1944
+","
+in fr övr Sverige
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+5
+","
+ 863
+","
+in fr utlandet
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+6
+","
+4268
+","
+ut till övr Sthlm
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+7
+","
+2348
+","
+ut till övr länet
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+8
+","
+1372
+","
+ut till övr Sverige
+"
+"
+SDO22
+","
+Hägersten-Liljeholmen
+","
+9
+","
+ 563
+","
+ut till utlandet
+"
+"
+SDO24
+","
+Skärholmen
+","
+1
+","
+1706
+","
+inomflyttning
+"
+"
+SDO24
+","
+Skärholmen
+","
+2
+","
+1443
+","
+in fr övr Sthlm
+"
+"
+SDO24
+","
+Skärholmen
+","
+3
+","
+1315
+","
+in fr övr länet
+"
+"
+SDO24
+","
+Skärholmen
+","
+4
+","
+ 580
+","
+in fr övr Sverige
+"
+"
+SDO24
+","
+Skärholmen
+","
+5
+","
+ 879
+","
+in fr utlandet
+"
+"
+SDO24
+","
+Skärholmen
+","
+6
+","
+1636
+","
+ut till övr Sthlm
+"
+"
+SDO24
+","
+Skärholmen
+","
+7
+","
+1423
+","
+ut till övr länet
+"
+"
+SDO24
+","
+Skärholmen
+","
+8
+","
+ 415
+","
+ut till övr Sverige
+"
+"
+SDO24
+","
+Skärholmen
+","
+9
+","
+ 265
+","
+ut till utlandet
+"

@@ -2154,14 +2154,12 @@ Embed Map Visualization in web page<br>
                                                         <h2 style="margin-top:40px;font-family:Arial;color:rgb(0,0,0);font-size:medium">
                                                             <a name="TOC-Download-the-Data"></a>Download the Data</h2>
                                                         <ol>
-                                                            <li style="color:rgb(0,0,0);font-family:Arial;font-size:medium;margin-bottom:10px">Download the zip file here:&nbsp;<a href="https://sites.google.com/site/fusiontablestalks/talks/fusion-tables-where-2-0-workshop/FT_workshop10.zip?attredirects=0">zip</a>.</li>
+                                                            <li style="color:rgb(0,0,0);font-family:Arial;font-size:medium;margin-bottom:10px">Download the zip file here:&nbsp;<a href="data.zip">zip</a>.</li>
                                                             <li style="margin-bottom:10px">
                                                                 <font color="#000000" face="Arial" size="3">Unzip. Zip file includes:
                                                                 </font>
                                                                 <ul style="color:rgb(0,0,0);font-family:Arial;font-size:medium">
-                                                                    <li style="margin-bottom:10px">population.csv - Population data for zip codes around the bay area</li>
-                                                                    <li style="margin-bottom:10px">embedded_map.html - Basic HTML page</li>
-                                                                    <li style="margin-bottom:10px">map.html - Basic HTML page with javascript for using MAPs API</li>
+                                                                    <li style="margin-bottom:10px">arbetslosa.xml.csv - Unemployment data by area in Stockholm</li>
                                                                 </ul>
                                                             </li>
                                                         </ol>
@@ -2187,10 +2185,10 @@ Embed Map Visualization in web page<br>
 <div style="text-align:left"><a href="https://sites.google.com/site/fusiontablestalks/talks/fusion-tables-where-2-0-workshop/Screen%20shot%202011-04-18%20at%208.22.33%20AM.png?attredirects=0" imageanchor="1"><img border="0" width=700 src="screen2.png"></a></div>
 </b>
                                                         <ol style="font-family:Arial;color:rgb(0,0,0);font-size:medium">
-                                                            <li style="margin-bottom:10px">Browse to find the population.csv file that you downloaded.</li>
+                                                            <li style="margin-bottom:10px">Browse to find the arbetslosa.xml.csv file that you downloaded.</li>
                                                             <li style="margin-bottom:10px">Click&nbsp;<b>Next &gt;&gt;</b>.</li>
                                                             <li style="margin-bottom:10px">Click&nbsp;<b>Next &gt;&gt;</b>&nbsp;again.</li>
-                                                            <li style="margin-bottom:10px">Update the Table name to Bay Area Population. Add any attribution data and/or change the description.
+                                                            <li style="margin-bottom:10px">Update the Table name to Stockholm Unemployment. Add any attribution data and/or change the description.
                                                                 <br>
                                                                 <br>
                                                                 <b>
@@ -2203,18 +2201,20 @@ Embed Map Visualization in web page<br>
                                                         </ol>
                                                         <h2 style="margin-top:40px;font-family:Arial;color:rgb(0,0,0);font-size:medium">
                                                             <a name="TOC-Merge-tables"></a>Merge tables</h2>
-                                                        <p style="font-family:Arial;color:rgb(0,0,0);font-size:medium">Now that you have the Bay Area population data in Fusion Tables, we're going to merge with a table containing the zip code boundaries. Fusion Tables has special handling for KML (Keyhole Markup Language) that is used to represent geographical features such as points, lines and polygons / boundaries. The table containing zip code boundaries has two columns we are interested in: one for the zip code labeled "name" and one labeled "geometry" where each cell has KML for the corresponding boundary.
-                                                            <span>We can use these boundaries to represent the locations when they are put on the map, otherwise they will only be points on the map.</span>
+                                                        <p style="font-family:Arial;color:rgb(0,0,0);font-size:medium">Now that you have the unemployment data in Fusion Tables, we're going to want to visualize it. But the data we have doesn't actual have any actual addresses....All it has is the name of areas. What we can do is find another fusion table that contains the shapes of the areas, and then merge both of them together.</p>
+                                                        <p style="font-family:Arial;color:rgb(0,0,0);font-size:medium"> Check out this table <a href="https://www.google.com/fusiontables/DataSource?docid=1h-VqLQjZS6Q0Ffi_9q0TzhShrQwBI_4Z0AdaBII#rows:id=1" target="_blank">here</a>.<br><br>It contains the shapes of all areas of Stockholm. Fusion Tables has special handling for KML (Keyhole Markup Language) that is used to represent geographical features such as points, lines and polygons / boundaries. The table containing areas has two columns we are interested in: one for the name of the area labeled "name", and one labeled "geometry" where each cell has KML for the corresponding boundary.
+
+                                                            
                                                         </p>
                                                         <ol style="font-family:Arial;color:rgb(0,0,0);font-size:medium">
-                                                            <li style="margin-bottom:10px">Make sure you have the Population table open in your browser.</li>
-                                                            <li style="margin-bottom:10px">In the Population table, select&nbsp;<b>File -> Merge</b>.</li>
-                                                            <li style="margin-bottom:10px">Paste the following URL&nbsp;in the Text box under&nbsp;<b>Or paste a web address here:</b>:&nbsp;<a href="https://www.google.com/fusiontables/DataSource?docid=10Py_fhQGH_uPJt9BFHKMWv3Qdg6kbh6dQ_ncAA">https://www.google.com/fusiontables/DataSource?docid=10Py_fhQGH_uPJt9BFHKMWv3Qdg6kbh6dQ_ncAA</a>
+                                                            <li style="margin-bottom:10px">Make sure you have the Unemployment table open in your browser.</li>
+                                                            <li style="margin-bottom:10px">In the Unemployment table, select&nbsp;<b>File -> Merge</b>.</li>
+                                                            <li style="margin-bottom:10px">Paste the following URL&nbsp;in the Text box under&nbsp;<b>Or paste a web address here:</b>:&nbsp;<a href="https://www.google.com/fusiontables/DataSource?docid=1h-VqLQjZS6Q0Ffi_9q0TzhShrQwBI_4Z0AdaBII#rows:id=1">https://www.google.com/fusiontables/DataSource?docid=10Py_fhQGH_uPJt9BFHKMWv3Qdg6kbh6dQ_ncAA</a>
                                                               <img width=700 src="screen4.png"/>
                                                             </li>
 
                                                             <li style="margin-bottom:10px">Click the&nbsp;<b>Next</b>&nbsp;button.</li>
-                                                            <li style="margin-bottom:10px">Select the columns you want to merge on. Make sure the dropdown on the left is set to &nbsp;<b>Zip</b>&nbsp;, and the dropdown on the right is set to &nbsp;<b>name</b>&nbsp;. These columns both have zip codes in the same format. Merge works by looking for exact string matches in the selected columns and then linking matching rows together.</li>
+                                                            <li style="margin-bottom:10px">Select the columns you want to merge on. Make sure the dropdown on the left is set to &nbsp;<b>text_område</b>&nbsp;, and the dropdown on the right is set to &nbsp;<b>name</b>&nbsp;. These columns both have names of areas in the same format. Merge works by looking for exact string matches in the selected columns and then linking matching rows together.</li>
                                                             <li style="margin-bottom:10px">Press Next
                                                                 <br>
                                                                 <br>
@@ -2224,14 +2224,14 @@ Embed Map Visualization in web page<br>
                                                             <li style="margin-bottom:10px">(Here is where you can optionally discard columns. We don't care about that right now). Click&nbsp;<b>Merge</b></li>
                                                             <li style="margin-bottom:10px">Select <b>View table</b>. You are now brought to a new table that has all the data merged in. Hooray!</li>
                                                             <li style="margin-bottom:10px">At the top of the page there is a little red + icon. Click it, and press <b>Add map</b><br/><img width=500 src="screen6.png"/></li>
-                                                            <li style="margin-bottom:10px">You now see a sweet map with the boundaries of the Bay area highlighted. Feel free to zoom and move around. Click on one of the polygons on the map to see what is displayed in the InfoWindow.</li>
+                                                            <li style="margin-bottom:10px">You now see a sweet map with the boundaries of Stockholm highlighted. Feel free to zoom and move around. Click on one of the polygons on the map to see what is displayed in the InfoWindow.</li>
                                                         </ol>
                                                         <h2 style="margin-top:40px;font-family:Arial;color:rgb(0,0,0);font-size:medium">
                                                             <a name="TOC-Configure-the-InfoWindow"></a>Configure the InfoWindow</h2>
                                                         <p style="font-family:Arial;color:rgb(0,0,0);font-size:medium">Now let's customize the content in the InfoWindow.</p>
                                                         <ol>
                                                             <li style="margin-bottom:10px;font-family:Arial;color:rgb(0,0,0);font-size:medium">Click on&nbsp;<b>Tools -> Change info window layout</b>.</li>
-                                                            <li style="margin-bottom:10px;font-family:Arial;color:rgb(0,0,0);font-size:medium">Deselect all checkboxes except for the 2 next to <b>Zip</b> and <b>Population</b>. Notice how the HTML in the right panel is updated as you do this.</li>
+                                                            <li style="margin-bottom:10px;font-family:Arial;color:rgb(0,0,0);font-size:medium">Deselect all checkboxes except for the 2 next to <b>txt_område</b> and <b>antal</b>. Notice how the HTML in the right panel is updated as you do this.</li>
                                                             <li style="margin-bottom:10px;font-family:Arial;color:rgb(0,0,0);font-size:medium">Select the&nbsp;<b>Custom</b>&nbsp;tab.
                                                                 <br>
                                                                 <br>
@@ -2240,21 +2240,10 @@ Embed Map Visualization in web page<br>
 <br>
 </b>
                                                             </li>
-                                                            <li style="margin-bottom:10px;font-size:medium">Update the code to look like this:
-                                                                <pre>
-&lt;div class=&#39;googft-info-window&#39; style=&#39;font-family: sans-serif&#39;&gt; 
-  &lt;b&gt;{Zip}&lt;/b&gt;&lt;br&gt; 
-  &lt;b&gt;Population:&lt;/b&gt; {Population} 
-&lt;/div&gt;
-                                                                </pre>
+                                                            <li style="margin-bottom:10px;font-size:medium">This lets you update what is shown when you click on an area. Update the code so that you only see the Antal and Område listed when you click. Result:
+                                                                <br><img src="result.png">
                                                             </li>
-                                                            <li style="margin-bottom:10px;font-family:Arial;color:rgb(0,0,0);font-size:medium">Click&nbsp;<b>Save</b>.</li>
-                                                            <li style="margin-bottom:10px;font-family:Arial;color:rgb(0,0,0);font-size:medium">Click on one of the zip code boundaries. The InfoWindow content should be similar to the following:
-                                                                <br>
-                                                                <br>
-                                                                <b>94403</b>
-                                                                <br>
-                                                                <b>Population</b>: 37919</li>
+                                                            
                                                         </ol>
                                                         <h2 style="margin-top:40px;font-family:Arial;color:rgb(0,0,0);font-size:medium">
                                                             <a name="TOC-Styling"></a>Styling</h2>
@@ -2264,8 +2253,8 @@ Embed Map Visualization in web page<br>
                                                             <li style="margin-bottom:10px">Select&nbsp;<b>Fill color</b>&nbsp;under&nbsp;<b>Polygons</b>&nbsp;in the left column.</li>
                                                             <li style="margin-bottom:10px">Select the&nbsp;<b>Gradient</b>&nbsp;tab.</li>
                                                             <li style="margin-bottom:10px">Select the radio button next to&nbsp;<b>Show a gradient</b>.</li>
-                                                            <li style="margin-bottom:10px">In the drop-down menu next to&nbsp;<b>Column</b>, select&nbsp;<b>Population</b>.</li>
-                                                            <li style="margin-bottom:10px">In the text box next to&nbsp;<b>Through</b>, enter the number 90900.
+                                                            <li style="margin-bottom:10px">In the drop-down menu next to&nbsp;<b>Column</b>, select&nbsp;<b>Antal</b>.</li>
+                                                            <li style="margin-bottom:10px">Click on the 'use this range' link
                                                                 <div style="display:block;text-align:left">
                                                                     <a href="https://sites.google.com/site/fusiontablestalks/talks/fusion-tables-where-2-0-workshop/Screen%20shot%202012-01-19%20at%206.13.26%20PM.jpg?attredirects=0" imageanchor="1">
                                                                         <img width=700 border="0" src="screen8.png">
@@ -2281,6 +2270,23 @@ Embed Map Visualization in web page<br>
                                                             <li style="margin-bottom:10px">Click&nbsp;<b>Save</b>&nbsp;when done.</li>
                                                             <li style="margin-bottom:10px">The map will be updated with the new style.</li>
                                                         </ol>
+                                                        <h2 style="margin-top:40px;font-family:Arial;color:rgb(0,0,0);font-size:medium">
+                                                            <a name="TOC-Styling"></a>Filtering</h2>
+                                                        <p style="font-family:Arial;color:rgb(0,0,0);font-size:medium">The problem now is that our map only shows the unemployment rates of the 55-64 age range. Bummer :(. </p>
+                                                        <ol style="font-family:Arial;color:rgb(0,0,0);font-size:medium">
+                                                            <li style="margin-bottom:10px">Click the Filter button at the top left of the map <img src="screen9.png"></li>
+                                                            <li style="margin-bottom:10px">Select "text_ålder" as the property you are filtering on.</li>
+                                                            <li style="margin-bottom:10px">Play around with the checkboxes, and watch how the map represents different age groups. Try out different filters too.</li>
+                                                           
+<br>
+</b>
+   
+                                                        </ol>
+
+
+
+
+
                                                         <h2 style="margin-top:40px;font-family:Arial;color:rgb(0,0,0);font-size:medium">
                                                             <a name="TOC-Sharing-and-Permissions"></a>Sharing and Permissions</h2>
                                                         <div>
@@ -2315,30 +2321,9 @@ Embed Map Visualization in web page<br>
                                                                 <div>As an alternative to viewing a map in the Fusion Tables application, it is possible to embed a view of a Fusion Table based map visualization in an HTML page.</div>
                                                                 <div>
                                                                     <ol>
-                                                                        <li>Download a code editor. My personal favourite is <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a></li>
-                                                                        <li style="margin-bottom:10px">Open the embedded_map.html file using your code editor (Sublime if you just downloaded it).&nbsp;
-                                                                            <span style="color:rgb(0,0,0);font-family:Arial">This file is in the zip file you downloaded at the beginning of this tutorial.</span>
-                                                                        </li>
+                                                                        <li>Create a new html file on your computer and figure out how to embed your map into html. You are looking for the "IFRAME" alternative.</li>
+                                                                  
                                                                 
-                                                                        <li style="margin-bottom:10px">
-                                                                            <span style="color:rgb(0,0,0);font-family:Arial">Inside your fusion table that you created above, click <b>Tools -> Publish...</b>. You should see the following</span>
-                                                                            <a href="https://sites.google.com/site/fusiontablestalks/talks/fusion-tables-where-2-0-workshop/getembeddable.tiff?attredirects=0" imageanchor="1" style="font-family:Arial;text-align:left">
-                                                                                <img border="0" width=500 src="screen9.png">
-                                                                            </a>
-                                                                        </li>
-                                                                        <li style="margin-bottom:10px">Select the text in the box "Paste HTML to embed in a website". Copy the text.</li>
-                                                                        <li style="margin-bottom:10px">Go to the embedded_map.html in your code editor and paste the selected text below the line "&lt;h1&gt;Bay Area Population with Embedded Map&lt;/h1&gt;". The file should now look like:&nbsp;
-                                                                            <a href="https://sites.google.com/site/fusiontablestalks/talks/fusion-tables-where-2-0-workshop/htmlcode.tiff?attredirects=0" imageanchor="1" style="text-align:left">
-                                                                                <img border="0" width=600 src="screen10.png">
-                                                                            </a>
-                                                                        </li>
-                                                                        <li style="margin-bottom:10px">Save the file and open it in a browser. You should now see:&nbsp;
-                                                                            <div style="display:block;text-align:left">
-                                                                                <a href="https://sites.google.com/site/fusiontablestalks/talks/fusion-tables-where-2-0-workshop/withembeddedmap.tiff?attredirects=0" imageanchor="1">
-                                                                                    <img border="0" src="./Fusion Tables Workshop - Google Fusion Tables_files/withembeddedmap.tiff">
-                                                                                </a>
-                                                                            </div>
-                                                                        </li>
                                                                     </ol>
                                                                 </div>
                                                                 <div style="text-align:left">
@@ -2375,7 +2360,7 @@ Embed Map Visualization in web page<br>
                                                                 <div>
                                                                     <font size="3">
                                                                         <font color="#999999" style="font-weight:bold">&nbsp;</font>
-                                                                        <font color="#000000">where: 'Population &gt; 40000'</font>
+                                                                        <font color="#000000">where: 'antal &gt; 1000'</font>
                                                                         <br>
                                                                     </font>
                                                                 </div>
@@ -2391,40 +2376,26 @@ Embed Map Visualization in web page<br>
                                                                 </div>
                                                             </blockquote>
                                                             (Don't worry if the "from" and "select" lines look different from the ones above. You just care about the line that has "where" on it)
-                                                          <li style="color:rgb(0,0,0);font-size:medium;font-family:Arial;margin-bottom:10px">Refresh the page in the browser, and you should now only see areas that have populations over 40000. Feel free to explore!</li>
+                                                          <li style="color:rgb(0,0,0);font-size:medium;font-family:Arial;margin-bottom:10px">Refresh the page in the browser, and you should now only see areas that have unemployment counts over 1000 thousand. Feel free to explore!</li>
 
                                                         </ol>
-                                                        <div>
-                                                            <font color="#000000" face="Arial" size="3"><b>Useful tools</b>
-                                                            </font>
-                                                        </div>
+                                                     
                                                         <div>
                                                             <font color="#000000" face="Arial" size="3"><b><br>
 </b>
                                                             </font>
                                                         </div>
-                                                        <div>
-                                                            <font color="#000000" face="Arial" size="3">Here are a couple useful tools that will help you work with Fusion Tables:</font>
-                                                        </div>
-                                                        <div>
-                                                            <font color="#000000" face="Arial" size="3">
-                                                                <span style="color:rgb(51,51,51);font-family:Arial,Verdana,sans-serif;font-size:14px">
-                                                                    <ol style="list-style-type:decimal;font-family:Arial;color:rgb(0,0,0);font-size:medium">
-                                                                        <li style="margin-bottom:10px"><b>Shape Escape</b>: <a href="http://shpescape.com/" target="_blank" rel="nofollow">http://shpescape.com</a>.
-                                                                            <br>
-                                                                            <br>Shape Escape allows you to upload shape files to Fusion Tables. Simply go to shpescape.com and select the zipped shape file you want to upload. Shape Escape creates a Fusion Table with the shape file data for you!</li>
-                                                                        <li style="margin-bottom:10px"><b>FusionTablesLayer Builder</b>:&nbsp;<a href="http://bit.ly/ftlbuilder" target="_blank" rel="nofollow">http://bit.ly/ftlbuilder</a>
-                                                                            <br>
-                                                                            <br>Going a few steps beyond the built-in “Get embeddable code” feature, FusionTablesLayer Builder generates all the code necessary to include a Google Map with a Fusion Table Layer on your own website. &nbsp;</li>
-                                                                    </ol>
-                                                                </span>
-                                                            </font>
-                                                        </div>
+                                                        
                                                     </div>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
+
+                                                                  <h2 style="margin-top:40px;font-family:Arial;color:rgb(0,0,0);font-size:medium">
+                                                            <a name="TOC-Styling"></a>Questioning</h2>
+                                                        <p style="font-family:Arial;color:rgb(0,0,0);font-size:medium">Wait a minute....what is this data? And how are unemployments actually measured? Find the definition of what an "unemployment" means to the city of Stockholm, and how is it calculated. <a href="http://open.stockholm.se/befolkningsdata" target="_blank">Here's a good place to start looking.</a></p>
+                
                             </div>
                             </div>
                             <div id="sites-canvas-bottom-panel">
@@ -2449,6 +2420,9 @@ Embed Map Visualization in web page<br>
                 <div id="sites-chrome-adminfooter-container">
                 </div>
             </div>
+
+            <h1>Hej! Did you finish?</h1>
+            <h3>Play around with it and some of the other data sets in the zip file. Come up with something cool and upload a link to it  <a href="https://docs.google.com/spreadsheet/ccc?key=0ApxNqfd1CVrBdEFja3RZb3hicVdxVVlYbWtQMW9GUnc#gid=0" target="_blank">here</a></h3>
             <div id="sites-chrome-onebar-footer">
             </div>
 
